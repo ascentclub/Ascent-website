@@ -1,0 +1,241 @@
+
+#logo{
+    height: 75%;
+    width: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.navi{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 108%;
+}
+
+#name{
+ padding-right: 50%; 
+ color:white;
+ font-size: 170%;  
+ text-decoration: none;
+ 
+}
+
+#head{
+    background-color: rgb(22, 23, 21);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(10px);
+    margin-top: 0%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+}
+
+
+#section1{
+    background-color: rgb(46, 46, 47);   /* Background color */
+    color: white;             /* Text color */
+    text-align: left;         /* Align text to the left */
+    width: 100%;              /* Full width */
+    height: 60vh;             /* Half the viewport height */
+    padding: 0;               /* Remove padding to avoid affecting height */
+    margin: 0;                /* Remove margin */
+    display: flex;            /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right content */
+    align-items: center;     
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+/* Left content styling */
+.left-content {
+    padding-left: 10%;  
+    flex: 1;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+/* Right content styling */
+.right-content {
+    padding-right: 10%;   
+    flex: 1;   
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.leftsectionh1{
+    font-size: 200%;
+}
+.leftsection1{
+    font-size: 150%;
+}
+.rightsectionh1{
+    font-size: 200%;
+}
+.rightsection1{
+    font-size: 120%;
+}
+
+.divider {
+    width: 2px;
+    background-color: #555;
+    height: 100%;
+    margin: 20px 20px; /* Add top and bottom margins */
+    box-sizing: content-box; /* Ensure margins are outside the element's dimensions */
+  }
+
+.linked {
+    font-size: 2rem;          /* Adjust the size (e.g., 2rem, 3rem) */
+    color: #b12a2a;           /* Change this to your desired color */
+    margin: 0 10px;           /* Optional: add spacing between icons */
+    transition: color 0.3s;   /* Optional: smooth transition on hover */
+}
+
+.linked:hover {
+    color: #d9962a;           /* Change color on hover, adjust to your preference */
+}
+
+.icons {
+    display: flex;            /* Align icons in a row */
+    margin-bottom: 10px;    
+    align-items: center; /* Space between icons and button */
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.btn {
+    padding: 12px 20px;                     /* Increase padding for a larger button */
+    background-color: #12202f !important;  /* Bright button color with !important */
+    color: white !important;                /* Text color with !important */
+    border: none;                           /* Remove default border */
+    border-radius: 5px;                    /* Rounded corners */
+    cursor: pointer;                        /* Pointer cursor on hover */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover */
+    font-size: 1rem;                       /* Increase font size for better readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.btn:hover {
+    background-color: #ca2323 !important;  /* Darker shade on hover with !important */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.section2{
+    background-color: rgb(123, 123, 123);   /* Background color */
+    /* background-image: url(do.avif);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    color: white;             /* Text color */
+    text-align: center;         /* Align text to the left */
+    width: 100%;              /* Full width */
+    height: 60vh;             /* Half the viewport height */
+    padding: 0;               /* Remove padding to avoid affecting height */
+    margin: 0;                /* Remove margin */
+    display: flex;            /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right content */
+    align-items: center;     
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#headsection2{
+    font-size: 275%;
+}
+#parasection2{
+    font-size: 125%;
+}
+
+
+.section3{
+    background-color: rgb(201, 201, 212) !important;   /* Background color */
+    color: rgb(67, 61, 61);             /* Text color */
+    text-align: center;         /* Align text to the left */
+    width: 100%;              /* Full width */
+    height: 60vh;             /* Half the viewport height */
+    padding: 0;               /* Remove padding to avoid affecting height */
+    margin: 0;                /* Remove margin */
+    display: flex;            /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right content */
+    align-items: center;     
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#headsection3{
+    font-size: 200%;
+}
+#parasection3{
+    font-size: 135%;
+}
+
+.section4{
+    background-color: rgb(143, 134, 134) !important;   /* Background color */
+    color: rgb(51, 35, 35);             /* Text color */
+    text-align: center;         /* Align text to the left */
+    width: 100%;              /* Full width */
+    height: 50vh;             /* Half the viewport height */
+    padding: 0;               /* Remove padding to avoid affecting height */
+    margin: 0;                /* Remove margin */
+    display: flex;            /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right content */
+    align-items: center;     
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#headsection4{
+    font-size: 250%;
+}
+
+.parasection4{
+    font-size: 135%;
+}
+
+.section5{
+    background-color: rgb(108, 98, 98) !important;   /* Background color */
+    color: rgb(86, 55, 55);             /* Text color */
+    text-align: center;         /* Align text to the left */
+    width: 100%;              /* Full width */
+    height: 50vh;             /* Half the viewport height */
+    padding: 0;               /* Remove padding to avoid affecting height */
+    margin: 0;                /* Remove margin */
+    display: flex;            /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right content */
+    align-items: center;     
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#headsection5{
+    font-size: 250%;
+}
+
+.parasection5{
+    font-size: 135%;
+}
+
+.section6{
+    background-color: rgb(238, 234, 234) !important;   /* Background color */
+    color: rgb(86, 55, 55);             /* Text color */
+    text-align: center;         /* Align text to the left */
+    width: 100%;              /* Full width */
+    height: 50vh;             /* Half the viewport height */
+    padding: 0;               /* Remove padding to avoid affecting height */
+    margin: 0;                /* Remove margin */
+    display: flex;            /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right content */
+    align-items: center;     
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
