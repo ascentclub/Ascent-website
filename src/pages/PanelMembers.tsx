@@ -11,7 +11,6 @@ import gajana from "./images/gajana.jpg"
 import akshat from "./images/akshath.jpeg"
 import sir1 from "./images/ashwath.jpg"
 import sir2 from "./images/balu.jpg"
-import afnan from "./images/afnan.jpg"
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
 
@@ -41,9 +40,9 @@ const PanelMembers = () => {
     },
     {
       name: "Nazneen Ma’am",
-      role: "Placement Officer",
+      role: "Chief Advisor and Placement Officer",
       image: aman,
-      bio: "Support staff of technical club",
+      bio: "Connecting talent with opportunities through guidance, mentorship, and industry partnerships. ",
       social: {
         github: "https://github.com",
         linkedin: "https://linkedin.com",
@@ -54,11 +53,11 @@ const PanelMembers = () => {
       name: "Aman M B ",
       role: "President",
       image: aman,
-      bio: "AI enthusiast and full-stack developer with a passion for building scalable solutions.",
+      bio: "Aspiring Data Scientist | BE CSE AI&ML Student at Impact collage of engineering and applied sciences | Revolutionary Tech & Space Enthusiast.",
       social: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
-        email: "mailto:sarah@example.com"
+        github: "https://github.com/amxncore",
+        linkedin: "https://www.linkedin.com/in/amanmb/",
+        email: "amanmuttilara@gmail.com"
       }
     },
     {
@@ -160,28 +159,8 @@ const PanelMembers = () => {
         email: "rayquaza4010@icloud.com"
       }
     },
-    {
-      name: "Afnan Khan",
-      role: "Media Panel",
-      image: afnan,
-      bio: "I manage the media panel, ensuring smooth coordination of media activities while specializing in video editing, graphic design, and social media management. Passionate about leveraging technology for impactful content and seamless digital experiences, I look forward to collaborating!",
-      social: {
-        github: "https://github.com/Rayz4010-",
-        linkedin: "https://www.linkedin.com/in/mohammed-afnan-khan-71a976353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        email: "mohammedafnankhan2005@gmail.com"
-      }
-    },
-    {
-      name: "Arshad Khan",
-      role: "Media Panel",
-      image: afnan,
-      bio: "I manage the media panel, ensuring smooth coordination of media activities while specializing in video editing, graphic design, and social media management. Passionate about leveraging technology for impactful content and seamless digital experiences, I look forward to collaborating!",
-      social: {
-        github: "https://github.com/Rayz4010-",
-        linkedin: "https://www.linkedin.com/in/mohammed-afnan-khan-71a976353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        email: "mohammedafnankhan2005@gmail.com"
-      }
-    },
+
+   
     
   ];
 
