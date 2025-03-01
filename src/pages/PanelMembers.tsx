@@ -39,7 +39,7 @@ const PanelMembers = () => {
       }
     },
     {
-      name: "Nazneen Ma’am",
+      name: "Nazneen",
       role: "Chief Advisor and Placement Officer",
       image: aman,
       bio: "Connecting talent with opportunities through guidance, mentorship, and industry partnerships. ",
@@ -53,7 +53,7 @@ const PanelMembers = () => {
       name: "Aman M B ",
       role: "President",
       image: aman,
-      bio: "Aspiring Data Scientist | BE CSE AI&ML Student at Impact collage of engineering and applied sciences | Revolutionary Tech & Space Enthusiast.",
+      bio: "Aspiring Data Scientist | Tech & Space Enthusiast.",
       social: {
         github: "https://github.com/amxncore",
         linkedin: "https://www.linkedin.com/in/amanmb/",
