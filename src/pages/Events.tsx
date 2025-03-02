@@ -6,9 +6,9 @@ const Events = () => {
   const events = [
     {
       title: "Ascent Selection",
-      date: "datae here ",
-      time: "48 Hours",
-      location: "Virtual Event",
+      date: "Updated through messages ",
+      time: "2 Hours",
+      location: "Impact Collage of enginering",
       description: "Join us for our flagship hackathon event where teams compete to build innovative solutions.",
       participants: "200+ Participants",
       image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1000"
